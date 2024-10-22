@@ -1,6 +1,9 @@
 // Import mongoose to define the schema for the Recipe model
 const mongoose = require("mongoose");
 
+
+
+
 // Define the schema (structure) for a Recipe document in MongoDB
 const recipeSchema = new mongoose.Schema({
   title: { type: String, required: true },

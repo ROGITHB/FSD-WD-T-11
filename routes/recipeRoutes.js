@@ -1,7 +1,7 @@
 // Import express to create the router and the controller to handle the routes
 const express = require("express");
 const router = express.Router();
-const recipeController = require("../controllers/recipeController");
+const recipeController = require("../controllers/recipesController");
 
 // Define route for creating a new recipe (POST /recipes)
 router.post("/createRecipes", recipeController.createRecipe);
