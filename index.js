@@ -4,7 +4,7 @@ const RecipesController = require("./controller/Recipes.controller");
 const {createDbconnect} = require('./db');
 
 // CREATE DB CONNECTION
-createDbConnection();
+createDbconnect();
 
 // STEP 1: Create a API SERVER
 const app = Express()
