@@ -6,7 +6,7 @@ const {createDbconnect} = require('./db');
 
 
 const app = express();
-connectDB();
+createDbconnect();
 
 app.use(bodyParser.json());
 app.use('/api/recipes', recipeRoutes);
