@@ -1,33 +1,5 @@
 # Recipe Management API
-##Project Structure
-recipe-app/
-│
-├── controllers/
-│   └── recipeController.js
-│
-├── models/
-│   └── Recipe.js
-│
-├── routes/
-│   └── recipeRoutes.js
-│
-├── config/
-│   └── db.js
-│
-├── middleware/
-│   └── errorHandler.js
-│_index.js
-│_index.html
-├── .env
-├── package.json
-├_package-lock.json
-└── README.md
-#Techstacks needs to be used : 
 
-Node.js
-Express.js
-Mongoose (MongoDB)
-Postman
 
 ## Description
 A simple CRUD application for managing recipes using Node.js, Express.js, and MongoDB.
@@ -48,6 +20,12 @@ A simple CRUD application for managing recipes using Node.js, Express.js, and Mo
 npm start
 Testing
 Use Postman to test the API endpoints. See the request and response examples in the code.
+
+5.Techstacks needs to be used : 
+Node.js
+Express.js
+Mongoose (MongoDB)
+Postman
 
 ### Conclusion
 
