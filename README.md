@@ -1,5 +1,13 @@
 # Recipe Management API
 
+Step 1: Initialize the Project
+Run the following commands in your terminal:
+mkdir recipe-app
+cd recipe-app
+npm init -y
+npm install express mongoose dotenv
+
+
 
 ## Description
 A simple CRUD application for managing recipes using Node.js, Express.js, and MongoDB.
