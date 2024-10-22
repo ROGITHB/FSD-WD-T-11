@@ -1,12 +1,12 @@
 // Import express, dotenv for environment variables, and other required modules
-const express = require("express");
-const dotenv = require("dotenv");
-const connectDB = require("./config/db");
-const recipeRoutes = require("./routes/recipeRoutes");
-const errorHandler = require("./middlewares/errorHandler");
+import express, { json } from "express";
+import { config } from "dotenv";
+import connectDB from "./config/db";
+import recipeRoutes from "./routes/recipeRoutes";
+import errorHandler from "./middlewares/errorHandler";
 
 // Load environment variables from .env file
-dotenv.config();
+config();
 
 // Connect to MongoDB using the connectDB function
 connectDB();
@@ -15,7 +15,7 @@ connectDB();
 const app = express();
 
 // Middleware to parse JSON request bodies
-app.use(express.json()); 
+app.use(json()); 
 
 // Mount the recipe routes under the / path
 app.use("/", recipeRoutes); 
