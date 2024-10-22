@@ -1,0 +1,17 @@
+{
+  "name": "fsd-wd-t-11",
+  "version": "1.0.0",
+  "description": "Building fsd-wd-t-11",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rogith",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "fsd-wd-t-11": "file:",
+    "mongoose": "^8.7.2"
+  }
+}
