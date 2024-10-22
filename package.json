@@ -10,6 +10,7 @@
   "author": "rogith",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "fsd-wd-t-11": "file:",
     "mongoose": "^8.7.2"
